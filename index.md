@@ -7,17 +7,16 @@ title: Summer 2023 DREU Project Site
 {:toc}
 
 ## About Me
-### Matianyu (Yuki) Zang
+Matianyu (Yuki) Zang
 
 Hi, I am a rising senior at Brown University concentrating in computer science and pure math. 
 
 email: matianyu_zang “at” brown “dot” edu
 
 ## About My Mentor
-### Dr. Jessy Junyi Li
+Dr. Jessy Junyi Li
 
-Dr. Li is an assistant professor and researcher at the University of Texas at Austin under the department of linguistic. She is a member of UT NLP group.
-
+Li is an assistant professor and researcher at the University of Texas at Austin under the department of linguistic. She is a member of UT NLP group.
 Area of interest: discourse processing, language generation, and NLP in social contexts
 Personal website: https://jessyli.com/
 
