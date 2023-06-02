@@ -21,7 +21,7 @@ Area of interest: discourse processing, language generation, and NLP in social c
 Personal website: https://jessyli.com/
 
 ## About My Project
-In-group and out-group analysis is a concept rooted in social psychology that is now frequently applied to various fields including linguistics, social networks, and discourse analysis. This method examines how individuals classify themselves and others into either 'in-groups' or 'out-groups' based on perceived membership in a social, cultural, linguistic, or ideological group. In this project, we are focusing on the in-group/outgroup analysis on the nfl football games. 
+In-group and out-group analysis is a concept rooted in social psychology that is now frequently applied to various fields including linguistics, social networks, and discourse analysis. This method examines how individuals classify themselves and others into either 'in-groups' or 'out-groups' based on perceived membership in a social, cultural, linguistic, or ideological group. In this project, we are focusing on the in-group/outgroup analysis on the nfl football game discussion comments. 
 
 ### My project entails:
 1. search for reddit football game posts for each of the 32 nfl teams
