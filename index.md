@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summer 2020 DREU Project Site
+title: Summer 2023 DREU Project Site
 ---
 
 * TOC
@@ -8,11 +8,11 @@ title: Summer 2020 DREU Project Site
 
 ## About Me
 
-My info goes here.
+Hi, my name is Matianyu (Yuki) Zang. I am now a rising senior student at Brown University concentrating in computer science and pure math. 
 
 ## About My Mentor
 
-Mentor info goes here.
+My mentor is Jessy Junyi Li, an assistant professor at the University of Texas at Austin.
 
 ## About My Project
 
