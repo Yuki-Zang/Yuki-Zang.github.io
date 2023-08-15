@@ -25,9 +25,9 @@ In-group and out-group analysis is a concept rooted in social psychology that is
 
 ### My project entails:
 1. search for reddit football game posts for each of the 32 nfl teams
-2. scrape the comments for each relevant post
+2. scrape the game post comments for each relevant post
 3. mask off pronouns, nouns, etc. in the comments
-4. manually or use GPT to annotate the masked entities using two labels: in-group/outgroup
+4. manually or use GPT to annotate the masked entities using labels: in-group/outgroup/third-party/unclear/either
 5. train models to predict the class of the masked entities
 6. analyze the results
 
