@@ -1,0 +1,6 @@
+---
+layout: post
+title: Week 2
+---
+
+This week I have succesfully gathered data for 8 teams out of 12 whose game posts are submitted by nfl_gdt_bot thus far. Each data point contains post id, comment id, parent id, raw comment, timestamp, subreddit name, poster username, flair, and upvote/downvote score. I also look into codes that mask the entities and convert the raw texts into html files for online annotation. The upcoming task is to employ GPT for annotating the anonymized entities.

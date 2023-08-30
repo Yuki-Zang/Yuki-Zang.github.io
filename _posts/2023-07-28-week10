@@ -1,0 +1,18 @@
+---
+layout: post
+title: Week 10
+---
+
+In the final week of the program, I ran the coref-resolution codes from https://github.com/shon-otmazgin/lingmess-coref. It returns a list of lists of number pairs, with the first being the start index and second being the end index. The number spans a noun/pronoun/noun phrase, and everything in the same list refers to the same entity. The following is an example (after matching the index with actual tokens):
+
+##### doc_key: hknbn8z
+The team that played today was the team I 've been expecting to pay all year .   Our D - Line was getting great pressure and our secondary was hitting guys as soon as they caught the ball . This game shows us this team is not as bad as we thought it was and capable of competing with the big boys .   We have had tons of opportunities to take advantage of games , most notably the Chiefs and Packers games , and when we do we can win ( duh ) . The game at Carolina is huge , but these last 8 games are significantly easier .
+[['Our'], ['our'], ['us'], ['we'], ['We'], ['we'], ['we']]
+[['guys'], ['they']]
+[['The', 'team', 'that', 'played', 'today'], ['this', 'team'], ['it']]
+###########################
+
+We plan to match pronouns like they/them/their/theirs and we/us/our/ours with team names in the same comment so that we have more gold labels for testing and model. From our inspection, the model works well with pairing entities but there are few occurances of the aforementioned pronouns.
+
+
+This is the end of the formal DREU program, but I will continue working on this project.

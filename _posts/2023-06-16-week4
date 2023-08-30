@@ -1,0 +1,42 @@
+---
+layout: post
+title: Week 4
+---
+
+I sampled 30 comments from panthers' dataset, masked/highlighted the teamname (as teamnames can be used as gold labels), and fed it into the gpt4 for model annotation. To instruct the gpt4 for the task, I formulated prompts. The following one is an example for the masked task. 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+We are interested in how the writer of a reddit comment feels towards/in connection with the people they're talking about. You will be asked to annotate for masked entities in a comment - examples are shown below the instructions.
+
+## Instructions
+
+Read the text carefully. We are interested in how sports fans online talk about the team they support, or players in the team they support, versus opposing teams/players.
+
+You will be reading comments by sports fans before/during/after a game between their team and an opponent. Comments are usually about one of the teams, or a player from the teams, and we want to understand how fans talk about them.
+
+We have replaced the mentioned team name in a comment with [ENT]. Your task is to guess if the [ENT] the commenter is talking about refers to the fan's team or the opponent based on the rest of the comment.
+
+Sometimes it might be the case that [ENT] can refer to either the team the speaker supports or an opponent. You can choose the either option if you think [ENT] is ambiguous. But first, make your strongest guess if the reference is to their team or the opponent.
+
+If there are multiple masked words in a sentence, it's possible they refer to different groups. Therefore, make sure to analyze each one individually based on its context.
+
+As output, please copy the whole sentence and replace [ENT] with one of [IN] if it refers to fan's team, [OUT] if it refers to the opponent, or [EITHER] if either works.
+
+Note: please annotate all and only [ENT]s!
+
+
+Here are examples of each
+
+fan's team: Also I miss [ENT], [ENT] was always great on 3rd downs
+Annotation: Also I miss [IN], [IN] was always great on 3rd downs
+
+opponent: Everything going [ENT] way so far....[ENT] are fucking going to win this game arent they
+Annotation: Everything going [OUT] way so far....[OUT] are fucking going to win this game arent they
+
+either: Uh [ENT], what are you doing?
+Annotation: Uh [EITHER], what are you doing?
+
+Now annotate this comment using the format above, using only the 3 labels defined above in your answers, and following all instructions given above. Return only the answer dictionary object.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+It's worth noticing that even a slight difference in wording results in discrepant accuracies. Using this wording of the prompt, the accuracy for masked annotation is 75% and that for highlighted (unmasked) annotation is 84.38%. The accuracy is fairly high. The next step is to understand how human performs on this task.

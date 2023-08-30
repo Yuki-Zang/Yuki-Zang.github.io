@@ -1,0 +1,6 @@
+---
+layout: post
+title: Week 6
+---
+
+This week I finally finished scraping all the Football data for past two game seasons. I thus know the proportion of comments that contain some team names (which by our hypothesis can be used as gold labels for computing the accuracy and model training). Take Texans' statistics for an instance: there are in total 51861 comments scraped from the web. 5791 of them mention at least one team name. More over, since we want to know how fans of competing teams respond to the same game, we pair the game posts of competing teams together. There are 527 game day pairs, 461 post game pairs, and 27 pregame pairs.
