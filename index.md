@@ -31,7 +31,7 @@ In-group and out-group analysis is a concept rooted in social psychology that is
 5. train models to predict the class of the masked entities
 6. analyze the results
 
-[My Final Report] (To be written)
+[My Final Report] (https://drive.google.com/file/d/1EKS7XPL8ENi9O5BJthrAnkG2MNELjxAh/view?usp=drive_link)
 
 ## My Blog
 
